@@ -2,12 +2,11 @@
 #include<cstdio>
 using namespace std;
 /**
-    ¿ìËÙÃİ
-
+    å¿«é€Ÿå¹‚
 */
 
 /**
-quickPowerµÄÄ£°æ
+quickPowerçš„æ¨¡ç‰ˆ
 
 a^b == (a^2)^(b/2)
 
