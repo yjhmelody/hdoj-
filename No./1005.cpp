@@ -25,9 +25,9 @@ int main()
         {
             arr[i] = (arr[i-1] * A + arr[i-2] * B) % 7;
             //cout<<arr[i]<<endl;
-            for(int j = 2;j < i;j++)        //如果能找到俩组数是相同的则找到了周期
+            for(int j = 2;j < i;j++)        //如果能找到俩组数是相同的则找到了
             {
-                if((arr[j] == arr[i]) && (arr[j-1] == arr[i-1]))  //开始周期变化
+                if((arr[j] == arr[i]) && (arr[j-1] == arr[i-1]))  //找到循环节
                 {
                     cycle = i - j;      //记录周期
                     begin = j - 1;      //记录周期开始起点
@@ -47,10 +47,8 @@ int main()
         }
         else
         {
-
             cout<<arr[begin+(n-begin)%cycle]<<endl;
         }
-
     }
     return 0;
 }
