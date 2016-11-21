@@ -1,2 +1,0 @@
-# Git 
-set My information
